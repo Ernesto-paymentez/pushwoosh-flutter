@@ -7,8 +7,11 @@ homepage: https://www.pushwoosh.com/v1.0/docs/message-inbox
 dependencies:
   flutter:
     sdk: flutter
-  pushwoosh: 
-    path: ../pushwoosh
+  pushwoosh:
+    git:
+      url: git://github.com/oaacelasu/pushwoosh-flutter.git
+      ref: master
+      path: Source/pushwoosh
 
 environment:
   sdk: ">=1.19.0 <3.0.0"
